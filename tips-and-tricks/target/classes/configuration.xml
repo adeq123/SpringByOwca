@@ -7,7 +7,7 @@
 
 <bean id = "someBean" class = "java.lang.String"/>	
 	
-	<bean id="someBean" class="info.adro.springtutorial.SomeBean">
+	<bean id="someBean2" class="info.adro.springtutorial.SomeBean">
 		<property name="stringValue" value='"Jan"'></property>
 		<property name="intValue" value='"11"'></property>
 		<property name="user" ref="user2"></property>
